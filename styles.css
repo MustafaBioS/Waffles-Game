@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    background: url(Assets/yellow-waffle-seamless-vector-pattern-cartoon-wafer-repeated-background-ice-cream-cone-texture_540634-265.avif);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 5rem;
+    color: rgb(255, 255, 0);
+    font-family: 'Arial';
+    font-weight: bold;
+    
+}
+
+.counterCon {
+    display: flex;
+    justify-content: center;
+}
+
+.clickCon {
+    display: flex;
+    flex-direction: column;
+}
+
+.counter {
+    font-size: 100px;
+    font-family: 'Arial';
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+}
+
+.result {
+    font-size: 40px;
+    font-family: 'Arial';
+    text-align: center;
+}
+
+
+.BG {
+    background-color: rgba(216, 155, 23);
+    height: 600px;
+    width: 450px;
+    border-radius: 40px;
+    box-shadow: 0px 2px 50px rgb(0, 0, 0);
+    transition: all 0.3s ease;
+}
+
+.BG:hover {
+    transform: translateY(-8px);
+    box-shadow: 2px 2px 70px rgb(0, 0, 0);
+}
+
+.btnCon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    gap: 20px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    font-size: 1.15rem;
+    font-family: 'Arial';
+    background-color: rgb(255, 255, 0);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 2px 50px rgb(250, 212, 0);
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
